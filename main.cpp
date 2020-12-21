@@ -2,10 +2,10 @@
 
 using namespace std;
 
-#define LOOP_COUNTER_MAX 5
+#define LOOP_COUNTER_MAX 15
 
 int main()
 {
     for (unsigned int loop_counter = 0; loop_counter < LOOP_COUNTER_MAX; loop_counter++)
-    cout << "Hello World" << endl;
+    cout << "Hello World " << loop_counter << endl;
 }
